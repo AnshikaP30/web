@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Gaming Zone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="title"># Selection Zone #</h1>
+
+    <div class="container">
+        <div class="section" id="one-vs-one" onclick="startGame('1vs1')">
+           <div class="game-ing"> <img src="C:\Users\hp\Downloads\1 vs 1.jpeg" width="300px" height="300px" alt="1 vs 1"usemap="#video-map">
+<map name="video-map">
+<area shape="rect"coords=50,200,50,200"
+href="https://youtu.be/H6SKmGj_-f0">
+</map>
+</div>
+            <h2 style="color:red;font-size:50px;text-shadow:2px 3px 1px;text-decoration:overline underline;text-decoration-color:#9370db;">1 vs 1 Battle</h2>
+        </div>
+        <div class="section" id="two-vs-two" onclick="startGame('2vs2')">
+           <div class="game-ing"> <img src="C:\Users\hp\Downloads\IMAGE.webp"width="300px" height="300px" alt="2 vs 2"></div>
+            <h2 style="color:red;font-size:50px;text-shadow:2px 3px 1px;text-decoration:overline underline;text-decoration-color:#9370db;">2 vs 2 Team Fight</h2>
+        </div>
+    </div>
+
+    <button class="back-btn" onclick="location.href='page.html'"><mark><<< Back to Home</mark></button>
+<button onclick="location.href='loading.html'">NEXT</button><br>
+<button onclick="location.href='start.html'">first page</button>
+
+
+    <script>
+        function startGame(mode) {
+            if (mode === '1vs1') {
+                alert("Starting 1 vs 1 battle...");
+            } else {
+                alert("Starting 2 vs 2 team fight...");
+            }
+        }
+    </script>
+
+</body>
+</html>

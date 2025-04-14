@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Match Loading</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      text-align: center;
+      padding-top: 100px;
+    }
+
+    .loading-text {
+      font-size: 24px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="loading-text">Your match will be loaded...</div>
+<audio id="bg-music" loop>
+    <source src="C:\Users\hp\Downloads\audio.mp3" type="audio/mpeg">
+</audio>
+
+<button onclick="document.getElementById('bg-music').play();">Play Music</button>
+<button onclick="document.getElementById('bg-music').pause();">Pause Music</button>
+<button onclick="location.href='start.html'">Back to first page</button>
+
+
+</body>
+</html>

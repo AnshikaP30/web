@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gaming Arena</title>
+    <link  href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="home-container">
+        <h1># Welcome to the Gaming Arena #</h1>
+        <p>Are you ready for the ultimate battle?</p>
+        <button onclick="location.href='index.html'">Start Game</button><br>
+        <button onclick="location.href='start.html'">Back to first page</button>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<html>
+<head>
+<link href="style.css" rel="stylesheet">
+<style>
+.form
+{margin:200px 200px 0px 460px;
+width:100px;
+height:300px;
+}
+body
+{
+background-image:url('https://th.bing.com/th/id/OIP.-e8XjKLyA5Pt3wGWoSdQaQHaEo?rs=1&pid=ImgDetMain');
+background-position:center;
+background-size:1000px;
+background-attachment:scroll;
+}
+
+</style>
+<script>
+function validate(){
+letx=document.forms["my form"]["box"].value;
+lety=document.forms["my form"]["em"].value;
+letz=document.forms["my form"]["term"].value;
+if(x==""){
+alert("name");
+return false;}
+if(y==""){
+alert("!check");
+return false;}
+if(z==""){
+alert("!check");
+return false;}
+}
+</script>
+</head>
+<body>
+
+<div>
+<form class="form" name="my form" action="file:///C:/Users/hp/Documents/page.html" onsubmit="return validate()">
+<fieldset>
+<input type="text" id="s" name="box" placeholder="Name*" required><br>
+<input type="text" id="p" name="em" placeholder="Email*" required><br>
+<input type="text" id="w" name="pass" placeholder="password*" required><br>
+<input type="text" id="q" name="age" placeholder="Age*"><br>
+<input type="text" id="r" name="add" placeholder="Address*"><br>
+<input type="checkbox" id="term" name="ter" required>
+<label for="terms" name="term">I agree to the Terms and Conditions</label>
+<input type="submit" value="submit">
+</fieldset>
+</form>
+</div>
+<h2 style="font-size:100px;color:red; margin-top:0px;margin-left:150px">#GAMING FIELD</h2>
+<div class="home-container">
+<button onclick="location.href='index.html'">Selection Zone</button><br>
+<button onclick="location.href='video.html'">Demo video</button>
+<div>
+</body>
+</html>
